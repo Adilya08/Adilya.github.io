@@ -12,18 +12,15 @@ header{
     background-image: url(https://i.gifer.com/ZLnU.gif);
     border-top-left-radius:55px ;
     border-top-right-radius:55px ;
-
 }
 nav{
     width: 100%;
     height: 295px;
-    border-radius: 35px;
-
-   
+    
 }
 aside{
     width: 100%;
-    height: 190px;
+    height: auto;
     background-color: rgb(108, 202, 236);
     border-radius: 35px;
 }
@@ -35,7 +32,7 @@ h1{
 main{
     width: 100%;
     height: 520px;
-    background-color: rgb(77, 120, 160);
+    background-color: rgb(127, 236, 255);
     display:flex;
     flex-direction:row;
     border-radius: 35px;
@@ -44,7 +41,7 @@ main{
 footer{
     width: 100%;
     height: 150px;
-    background-color: rgb(7, 75, 102);
+    background-color: rgb(108, 202, 236);
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -55,6 +52,7 @@ footer{
    text-align: center;
    display: flex;
    justify-content: center;
+   padding-top: 75px;
 }
 .movie{
     width: 33%;
@@ -67,14 +65,21 @@ footer{
      flex-direction: row;
    flex-wrap:wrap;
   justify-content: space-around;
+  color: white;
 }
 table,tr ,th ,td{ 
-   border: 5px solid rgb(2, 24, 44);
+   border: 5px solid white;
            border-collapse: collapse;
            } 
-hr{
- border: 10px dashed rgb(14, 90, 161);
-    }
+           th{
+               color: white;
+           }
+.a457{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
     th{
        background-color:rgb(243, 148, 180)  ;
     }
@@ -95,110 +100,361 @@ background-color: rgb(243, 148, 180);
 i{
     font-size: large;
      text-align: center;
+     color:white;
 } 
-@media (max-width: 1000px){
- div {
-   display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
- height: auto;
+li{
+    color: white;
 }
-
- nav {
-    width:100%;
-    height: auto;
-                     
-                     
-      }
-  .img-fluid1{
- max-width: 100%;
- height: auto;
- float:left;
-    } 
-  .img-fluid{
-   max-width: 100%;
- height: auto;
- float:right;
-     } 
-
- main {
-  width:100%;
-  height:auto;
- display:flex;
-  flex-direction: row;
- flex-wrap: wrap;
-                 }
-             }
- footer{
- display:flex;
-flex-direction: row;
- flex-wrap: wrap;
-  height: auto;   
-             }
-    .words{
-      width: 50%;
-      height: auto;
-      
-  }   
-.music{width: 100%;
-      height: auto;}
-  .movie    {width: 100%;
-      height: auto;}   
-
- @media (max-width: 500px){
-  div {
-     width: 100%;
-     height: auto;
-            }
-
- nav {
- width:100%;
-  height:auto;
-                    
-     }
-                
-  main {
-  width:100%;
-height:auto;
- display:flex;
-  flex-direction: column;
- flex-wrap: wrap;
-                 }
+@media (max-width:850px){
+    nav{
+        height: auto;
+        image-rendering: optimizeQuality;
+    }
+   
+.img-fluid1{
+    float: left;
+}
+.img-fluid{
+    float:right
+}
 footer{
-    display:flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   height: auto; 
-  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
 }
-                
- aside {
-  width:100%;
-  height:auto;
-                  
- }
- .img-fluid1{
- max-width: 100%;
- height: auto;
- margin:55px;
-    } 
-  .img-fluid{
-   max-width: 100%;
- height: auto;
-margin: 55px;
-     } 
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    height: auto; 
+}
+.words{
+width: 100%;
+height: auto;
 
-  .words{
-      width: 100%;
-      height: auto;
-      
-  }   
+}
 .music{width: 100%;
-      height: auto;}
-  .movie    {width: 100%;
-      height: auto;}        
-      }
-            
+height: auto;}
+.movie {width: 100%;
+height: auto;}
+
+}
+@media (max-width:950px){
+    nav{
+        height: auto;
+        image-rendering: optimizeQuality;
+    }
+   
+.img-fluid1{
+    float: left;
+}
+.img-fluid{
+    float:right
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    height: auto; 
+}
+.words{
+width: 100%;
+height: auto;
+
+}
+.music{width: 100%;
+height: auto;}
+.movie {width: 100%;
+height: auto;}
+
+
+}
+@media (max-width:800px){
+    nav{
+        height: auto;
+        image-rendering: optimizeQuality;
+    }
+   
+.img-fluid1{
+    float: left;
+}
+.img-fluid{
+    float:right
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    height: auto; 
+}
+.words{
+width: 100%;
+height: auto;
+
+}
+.music{width: 100%;
+height: auto;}
+.movie {width: 100%;
+height: auto;}
+
+}
+@media (max-width:1000px){
+    nav{
+        height: auto;
+        image-rendering: optimizeQuality;
+    }
+   
+.img-fluid1{
+    float: left;
+}
+.img-fluid{
+    float:right
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    height: auto; 
+}
+
+}
+@media (max-width:750px){
+    nav{
+        height: auto;
+        image-rendering: optimizeQuality;
+    }
+   
+.img-fluid1{
+    float: left;
+}
+.img-fluid{
+    float:right
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    height: auto; 
+}
+.words{
+width: 100%;
+height: auto;
+
+}
+.music{width: 100%;
+height: auto;}
+.movie {width: 100%;
+height: auto;}
+
+
+}
+@media (max-width:1100px){
+    nav{
+        height: auto;
+        image-rendering: optimizeQuality;
+    }
+   
+.img-fluid1{
+    float: left;
+}
+.img-fluid{
+    float:right
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    height: auto; 
+}
+
+}
+@media (max-width:500px){
+    nav{
+        height: auto;
+        image-rendering: optimizeQuality;
+    }
+   
+.img-fluid1{
+    float: left;
+}
+.img-fluid{
+    float:right
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    height: auto; 
+}
+aside{
+    width: 100%;
+}
+.a457{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+label{
+    width: auto;
+    }
+    .words{
+width: 100%;
+height: auto;
+
+}
+.music{width: 100%;
+height: auto;}
+.movie {width: 100%;
+height: auto;}
+
+}
+@media (max-width:auto ){
+    nav{
+        height: auto;
+        image-rendering: optimizeQuality;
+    }
+   
+.img-fluid1{
+    float: left;
+}
+.img-fluid{
+    float:right
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    height: auto; 
+}
+.words{
+    width: 70%;
+
+}}
+@media (max-width:900px){
+    nav{
+        height: auto;
+        image-rendering: optimizeQuality;
+    }
+   
+.img-fluid1{
+    float: left;
+}
+.img-fluid{
+    float:right
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    height: auto; 
+}
+.words{
+width: 100%;
+height: auto;
+
+}
+.music{width: 100%;
+height: auto;}
+.movie {width: 100%;
+height: auto;}
+}
+
+
+
+@media (max-width:920px){
+    nav{
+        height: auto;
+        image-rendering: optimizeQuality;
+    }
+   
+.img-fluid1{
+    float: left;
+}
+.img-fluid{
+    float:right5
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    height: auto; 
+}
+.words{
+width: 100%;
+height: auto;
+
+}
+.music{width: 100%;
+height: auto;}
+.movie {width: 100%;
+height: auto;}
+}
+
+
 </style>
 </head>
 <body>
@@ -206,32 +462,42 @@ margin: 55px;
         <i><h1>WELCOME!</h1></i> 
 </header>  
 <aside>
-    <form > <div class="input-group">
-        <div class="input-group-prepend">
-          <label class="input-group-text">First name and Surname</label>
-        </div>
-        <input type="text" aria-label="First name" class="form-control">
-        <input type="text" aria-label="Last name" class="form-control">
-      </div>
-      <div class="input-group-prepend">
-        <label class="input-group-text">Password</label>
-        <input type="password" name="password" class="form-control" >
-      </div>
-      <div class="form-group form-check">
+   <br>
+    <form action="">
+        <div class="a457">
+    <Label style="width: 13%;"   class="input-group-text"> First name</Label>
+     <input  type="text" name="fname" placeholder="Your name..." ></div>
+     
+     <br>  <div class="a457"><label style="width: 13%;"  class="input-group-text">Surname</label>
+         <input  type="text" name="lname" placeholder="Your surname..."></div>
+     
+     <br> <div class="a457"> <label style="width: 13%;" class="input-group-text"> Password </label>
+     <input  type="password" placeholder="Password..."></div>
+    
+     <br>
+     <div class="a457"> 
+         <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary btn-lg">Submit</button> 
-     </form>
+      </div> 
+      <button style="margin:35px;"  type="submit" class="btn btn-primary btn-lg">Submit</button> 
+    </div>
+    
+</form>
    </aside>
 <nav>
-    <p class="lead" style="text-align:center;">
+    <div class="tttt"> <p class="lead" style="text-align:center; color:  rgb(243, 148, 180);">
        Click to pictures!
-      </p> 
-<a href="vsled.html"><img src="as.jpg" class="img-fluid1" style="width:24% ; height: 250px;"> </a> 
+      </p> </div>
+      <br>
+   
+      <div class="ght">
+<a href="vsled.html"><img src="as.jpg" class="img-fluid1" style="width:25% ; height: 250px;"> </a> 
 <a href="111.html"><img src="1234.jpg" class="img-fluid1" style="width:25% ; height: 250px;"></a>    
 <a href="manga.html"><img src="789.jpg" class="img-fluid" style="width:25% ; height: 250px;"></a>    
-<a href="NETFLIX.html"><img src="вм.jpg" class="img-fluid" style="width:25% ; height: 250px;"></a>    
+<a href="NETFLIX.html"><img src="вм.jpg" class="img-fluid" style="width:24% ; height: 250px;"></a>    
+</div>
+
 </nav>
 <hr>
 <main>
@@ -239,8 +505,8 @@ margin: 55px;
     <div class="music">
    <table>
        <tr>
-           <th style="text-align: center;">№</th>
-           <th style="text-align: center;"> MUSICS </th>
+           <th style="text-align: center; color: white;">№</th>
+           <th style="text-align: center; color: white;"> MUSICS </th>
        </tr>
 <tr>
 <th> 1</th>
@@ -323,7 +589,7 @@ margin: 55px;
 <div class="qwe">
 
   
-    <label style="font-size: large; text-align: center;"> Phone numbers:</label>
+    <label style="font-size: large; text-align: center; color: white;"> Phone numbers:</label>
                         <select>
                             <option>8771537**** </option>
                             <option> 8700454****</option>
