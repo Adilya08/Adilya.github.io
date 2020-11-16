@@ -21,10 +21,12 @@
              height:150px;
              background-color:black ;   
              font-size: 85px;
-             text-align: center;
              color:rgb(247, 181, 57);
              text-shadow: 10px 10px rgba(218, 153, 32, 0.575) ;
 
+        }
+        p#p{
+          text-align: center;
         }
 
         nav{
@@ -117,6 +119,13 @@ input:focus {
   width: 40%;
 
 }
+.card-body, .card-header {
+  background-color:black;
+  color: rgba(248, 196, 100, 0.993);
+}
+.card-text, .btn {
+  color: rgba(248, 196, 100, 0.993);
+}
 
 
 
@@ -127,16 +136,15 @@ input:focus {
     <body>
     <header id="head">
 
-    <p id="p" class="italic">   MUSIC-WEBSITE </p>
-<!--
-      <div style="width: 30%; float: right;"> <img style="float: right; width: 60px;" src="inian.png" alt="pumpum" usemap="#onemap"  ></div> 
+      <div> <p id="p" class="italic">   MUSIC-WEBSITE </p></div> 
+
+     <!-- <div style="width: 30%; float: right;"> <img style="float: right; width: 60px;" src="inian.png" alt="pumpum" usemap="#onemap"  ></div> 
 
         <map name="onemap">
           <area shape="circle" coords="30, 16, 11" alt="Dark" onclick="Dark()">
           <area shape="circle" coords="30, 42, 11" alt="Light" onclick="Light()"> 
         </map>
-      -->
-
+-->
     </header> 
       <nav>
         <form>
@@ -159,38 +167,36 @@ input:focus {
             </h5>
           </div> 
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
-                  <p style="color:black;"> 1.1</p>
+            <div class="card-body" id="tut">
+                  <p > 1.1</p>
            <audio controls>
-               <source src="X SNARE (15).wav" type
-
-="audio/ogg; codecs=vorbis"  controls="controls">
+               <source src="X SNARE (15).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                <source src="X SNARE (15).wav" type="audio/mpeg">
              
                <a href="X SNARE (15).wav">Скачайте музыку</a>.
              </audio> <br>
-             <p style="color:black;"> 1.2</p>
+             <p > 1.2</p>
              <audio controls>
                  <source src="X SNARE (17).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                  <source src="X SNARE (17).wav" type="audio/mpeg">
                
                  <a href="X SNARE (17).wav">Скачайте музыку</a>.
                </audio> <br>
-               <p style="color:black;"> 1.3</p>
+               <p > 1.3</p>
                <audio controls>
                    <source src="X SNARE (10).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                    <source src="X SNARE (10).wav" type="audio/mpeg">
                  
                    <a href="X SNARE (10).wav">Скачайте музыку</a>.
                  </audio> <br>
-                 <p style="color:black;"> 1.4</p>
+                 <p > 1.4</p>
                  <audio controls>
                      <source src="X SNARE (2).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                      <source src="X SNARE (2).wav" type="audio/mpeg">
                    
                      <a href="X SNARE (2).wav">Скачайте музыку</a>.
                    </audio> <br>
-                   <p style="color:black;"> 1.5</p>
+                   <p> 1.5</p>
                    <audio controls>
                        <source src="Larry Ohh - faf snare.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                        <source src="Larry Ohh - faf snare.wav" type="audio/mpeg">
@@ -198,7 +204,7 @@ input:focus {
                        <a href="Larry Ohh - faf snare.wav">Скачайте музыку</a>.
                      </audio>
                      <br>
-                     <p style="color:black;"> 1.6</p>
+                     <p> 1.6</p>
                      <audio controls>
                          <source src="Cymatics - Eterniity Snare 11 - A.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                          <source src="Cymatics - Eterniity Snare 11 - A.wav" type="audio/mpeg">
@@ -206,7 +212,7 @@ input:focus {
                          <a href="Cymatics - Eterniity Snare 11 - A.wav">Скачайте музыку</a>.
                        </audio>
                        <br>
-                       <p style="color:black;"> 1.7</p>
+                       <p> 1.7</p>
                        <audio controls>
                            <source src="Cymatics - Eterniity Snare 1 - C.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                            <source src="Cymatics - Eterniity Snare 1 - C.wav" type="audio/mpeg">
@@ -217,177 +223,178 @@ input:focus {
           </div>
         </div>
         </div>
-      
-        <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-              K I C K
-       
-              </button>
-            </h5>
-          </div> 
-          <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
-            <div class="card-body">
-                  <p style="color:black;"> 1.1</p>
-           <audio controls>
-               <source src="Cymatics - Eternity Kick 15 -A.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-               <source src="Cymatics - Eternity Kick 15 -A.wav" type="audio/mpeg">
-             
-               <a href="Cymatics - Eternity Kick 15 -A.wav">Скачайте музыку</a>.
-             </audio> <br>
-             <p style="color:black;"> 1.2</p>
-             <audio controls>
-                 <source src="Cymatics - Eternity Kick 1 - C.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                 <source src="Cymatics - Eternity Kick 1 - C.wav" type="audio/mpeg">
 
-<a href="Cymatics - Eternity Kick 1 - C.wav">Скачайте музыку</a>.
-               </audio> <br>
-               <p style="color:black;"> 1.3</p>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+               P E R C C U S S I ON
+         
+                </button>
+              </h5>
+            </div> 
+            <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body" id="tut">
+                
+               <p"> 1.1</p>
                <audio controls>
-                   <source src="Larry Ohh - faf kick C.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                   <source src="Larry Ohh - faf kick C.wav" type="audio/mpeg">
+                   <source src="X PERC (10).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                   <source src="X PERC (10).wav" type="audio/mpeg">
                  
-                   <a href="Larry Ohh - faf kick C.wav">Скачайте музыку</a>.
+                   <a href="X PERC (10).wav">Скачайте музыку</a>.
                  </audio> <br>
-                 <p style="color:black;"> 1.4</p>
+                 <p > 1.2</p>
                  <audio controls>
-                     <source src="Larry Ohh - Sandman Kick G.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                     <source src="Larry Ohh - Sandman Kick G.wav" type="audio/mpeg">
+                     <source src="X PERC (12).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                     <source src="X PERC (12).wav" type="audio/mpeg">
                    
-                     <a href="Larry Ohh - Sandman Kick G.wav">Скачайте музыку</a>.
+                     <a href="X PERC (12).WAV">Скачайте музыку</a>.
                    </audio> <br>
-                   <p style="color:black;"> 1.5</p>
+                   <p > 1.3</p>
                    <audio controls>
-                       <source src="Larry Ohh - Wave Kick.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                       <source src="Larry Ohh - Wave Kick.wav" type="audio/mpeg">
+                       <source src="X PERC (1).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                       <source src="X PERC (1).wav" type="audio/mpeg">
                      
-                       <a href="Larry Ohh - Wave Kick.wav">Скачайте музыку</a>.
-                     </audio>
+                       <a href="X PERC (1).wav">Скачайте музыку</a>.
+  </audio>
+  
                      <br>
-                     <p style="color:black;"> 1.6</p>
+                     <br>
+                     <p > 1.4</p>
                      <audio controls>
-                         <source src="X KICK (9).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                         <source src="X KICK (9).wav" type="audio/mpeg">
+                         <source src="X PERC (6).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                         <source src="X PERC (6).wav" type="audio/mpeg">
                        
-                         <a href="X KICK (9).wav">Скачайте музыку</a>.
-                       </audio>
-                       <br>
-                       <p style="color:black;"> 1.7</p>
+                         <a href="X PERC (6).wav">Скачайте музыку</a>.
+                       </audio> <br>
+                       <p> 1.5</p>
                        <audio controls>
-                           <source src="X KICK (8).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                           <source src="X KICK (8).wav" type="audio/mpeg">
+                           <source src="X PERC (7).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                           <source src="X PERC (7).wav" type="audio/mpeg">
                          
-                           <a href="X KICK (8).wav">Скачайте музыку</a>.
-                         </audio>
+                           <a href="X PERC (7).wav">Скачайте музыку</a>.
+                         </audio> <br>
+                         <p > 1.6</p>
+                         <audio controls>
+                             <source src="X PERC (4).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                             <source src="X PERC (4).wav" type="audio/mpeg">
+                           
+                             <a href="X PERC (4).wav">Скачайте музыку</a>.
+                           </audio> <br>
+                           <p> 1.7</p>
+                           <audio controls>
+                               <source src="X PERC (5).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                               <source src="X PERC (5).wav" type="audio/mpeg">
+                             
+                               <a href="X PERC (5).wav">Скачайте музыку</a>.
+                             </audio> <br>
+                             <p > 1.8</p>
+                             <audio controls>
+                                 <source src="X PERC 15).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                                 <source src="X PERC (15).wav" type="audio/mpeg">
+                               
+                                 <a href="X PERC (15).wav">Скачайте музыку</a>.
+                               </audio> <br>
+                               <p > 1.9</p>
+                               <audio controls>
+                                   <source src="X PERC (17).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                                   <source src="X PERC (17).wav" type="audio/mpeg">
+                                 
+                                   <a href="X PERC (17).wav">Скачайте музыку</a>.
+                                 </audio> <br>
+                                 <p > 2.0</p>
+                                 <audio controls>
+                                     <source src="Cymatics - Eternity Percussion 9.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                                     <source src="Cymatics - Eternity Percussion 9.wav" type="audio/mpeg">
+                                   
+                                     <a href="Cymatics - Eternity Percussion 9.wav">Скачайте музыку</a>.
+                                   </audio> <br>
+                                   <p> 2.1</p>
+                                   <audio controls>
+                                       <source src="Cymatics - Eternity Percussion 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                                       <source src="Cymatics - Eternity Percussion 1.wav" type="audio/mpeg">
+                                     
+                                       <a href="Cymatics - Eternity Percussion 1.wav">Скачайте музыку</a>.
+                                     </audio> <br>
+      
+  
+              </div>
             </div>
           </div>
-        </div>
-        </div>
+          </div>    
   </div>
 
       <div class="second">
         <i style="color: rgba(248, 196, 100, 0.993);">PLEASE CLICK ME</i> 
         <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h5 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-             P E R C C U S S I ON
-       
-              </button>
-            </h5>
-          </div> 
-          <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <div class="card-body">
-              
-             <p style="color:black;"> 1.1</p>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                K I C K
+         
+                </button>
+              </h5>
+            </div> 
+            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body" id="tut">
+                    <p> 1.1</p>
              <audio controls>
-                 <source src="X PERC (10).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                 <source src="X PERC (10).wav" type="audio/mpeg">
+                 <source src="Cymatics - Eternity Kick 15 -A.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                 <source src="Cymatics - Eternity Kick 15 -A.wav" type="audio/mpeg">
                
-                 <a href="X PERC (10).wav">Скачайте музыку</a>.
+                 <a href="Cymatics - Eternity Kick 15 -A.wav">Скачайте музыку</a>.
                </audio> <br>
-               <p style="color:black;"> 1.2</p>
+               <p> 1.2</p>
                <audio controls>
-                   <source src="X PERC (12).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                   <source src="X PERC (12).wav" type="audio/mpeg">
-                 
-                   <a href="X PERC (12).WAV">Скачайте музыку</a>.
+                   <source src="Cymatics - Eternity Kick 1 - C.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                   <source src="Cymat
+  ics - Eternity Kick 1 - C.wav" type="audio/mpeg">
+  
+  <a href="Cymatics - Eternity Kick 1 - C.wav">Скачайте музыку</a>.
                  </audio> <br>
-                 <p style="color:black;"> 1.3</p>
+                 <p> 1.3</p>
                  <audio controls>
-                     <source src="X PERC (1).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                     <source src="X PERC (1).wav" type="audio/mpeg">
+                     <source src="Larry Ohh - faf kick C.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                     <source src="Larry Ohh - faf kick C.wav" type="audio/mpeg">
                    
-                     <a href="X PERC (1).wav">Скачайте музыку</a>.
-                   </audio>
-
-                   <br>
-                   <br>
-                   <p style="color:black;"> 1.4</p>
+                     <a href="Larry Ohh - faf kick C.wav">Скачайте музыку</a>.
+                   </audio> <br>
+                   <p> 1.4</p>
                    <audio controls>
-                       <source src="X PERC (6).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                       <source src="X PERC (6).wav" type="audio/mpeg">
+                       <source src="Larry Ohh - Sandman Kick G.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                       <source src="Larry Ohh - Sandman Kick G.wav" type="audio/mpeg">
                      
-                       <a href="X PERC (6).wav">Скачайте музыку</a>.
+                       <a href="Larry Ohh - Sandman Kick G.wav">Скачайте музыку</a>.
                      </audio> <br>
-                     <p style="color:black;"> 1.5</p>
+                     <p> 1.5</p>
                      <audio controls>
-                         <source src="X PERC (7).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                         <source src="X PERC (7).wav" type="audio/mpeg">
+                         <source src="Larry Ohh - Wave Kick.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                         <source src="Larry Ohh - Wave Kick.wav" type="audio/mpeg">
                        
-                         <a href="X PERC (7).wav">Скачайте музыку</a>.
-                       </audio> <br>
-                       <p style="color:black;"> 1.6</p>
+                         <a href="Larry Ohh - Wave Kick.wav">Скачайте музыку</a>.
+                       </audio>
+                       <br>
+                       <p> 1.6</p>
                        <audio controls>
-                           <source src="X PERC (4).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                           <source src="X PERC (4).wav" type="audio/mpeg">
+                           <source src="X KICK (9).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                           <source src="X KICK (9).wav" type="audio/mpeg">
                          
-                           <a href="X PERC (4).wav">Скачайте музыку</a>.
-                         </audio> <br>
-                         <p style="color:black;"> 1.7</p>
+                           <a href="X KICK (9).wav">Скачайте музыку</a>.
+                         </audio>
+                         <br>
+                         <p> 1.7</p>
                          <audio controls>
-                             <source src="X PERC (5).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                             <source src="X PERC (5).wav" type="audio/mpeg">
+                             <source src="X KICK (8).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                             <source src="X KICK (8).wav" type="audio/mpeg">
                            
-                             <a href="X PERC (5).wav">Скачайте музыку</a>.
-                           </audio> <br>
-                           <p style="color:black;"> 1.8</p>
-                           <audio controls>
-                               <source src="X PERC 15).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                               <source src="X PERC (15).wav" type="audio/mpeg">
-                             
-                               <a href="X PERC (15).wav">Скачайте музыку</a>.
-                             </audio> <br>
-                             <p style="color:black;"> 1.9</p>
-                             <audio controls>
-                                 <source src="X PERC (17).wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                                 <source src="X PERC (17).wav" type="audio/mpeg">
-                               
-                                 <a href="X PERC (17).wav">Скачайте музыку</a>.
-                               </audio> <br>
-                               <p style="color:black;"> 2.0</p>
-                               <audio controls>
-                                   <source src="Cymatics - Eternity Percussion 9.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                                   <source src="Cymatics - Eternity Percussion 9.wav" type="audio/mpeg">
-                                 
-                                   <a href="Cymatics - Eternity Percussion 9.wav">Скачайте музыку</a>.
-                                 </audio> <br>
-                                 <p style="color:black;"> 2.1</p>
-                                 <audio controls>
-                                     <source src="Cymatics - Eternity Percussion 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
-                                     <source src="Cymatics - Eternity Percussion 1.wav" type="audio/mpeg">
-                                   
-                                     <a href="Cymatics - Eternity Percussion 1.wav">Скачайте музыку</a>.
-                                   </audio> <br>
-    
-
+                             <a href="X KICK (8).wav">Скачайте музыку</a>
+                           </audio>
+              </div>
             </div>
           </div>
-        </div>
-        </div>
+          </div>  
 
         <div class="accordion" id="accordionExample">
         <div class="card">
@@ -400,23 +407,23 @@ input:focus {
             </h5>
           </div> 
           <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
-            <div class="card-body">
+            <div class="card-body" id="tut">
               
-             <p style="color:black;"> 1.1 Crash  </p>
+             <p > 1.1 Crash  </p>
              <audio controls>
                  <source src="Cymatics - Eternity Crash 8.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                  <source src="Cymatics - Eternity Crash 8.wav" type="audio/mpeg">
                
                  <a href="Cymatics - Eternity Crash 8.wav">Скачайте музыку</a>.
                </audio> <br>
-               <p style="color:black;"> 1.2 Crash </p>
+               <p > 1.2 Crash </p>
                <audio controls>
                    <source src="Cymatics - Eternity Crash 2.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                    <source src="Cymatics - Eternity Crash 2.wav" type="audio/mpeg">
                  
                    <a href="Cymatics - Eternity Crash 2.WAV">Скачайте музыку</a>.
                  </audio> <br>
-                 <p style="color:black;"> 1.3 Crash </p>
+                 <p > 1.3 Crash </p>
                  <audio controls>
                      <source src="Cymatics - Eternity Crash 3.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                      <source src="Cymatics - Eternity Crash 3.wav" type="audio/mpeg">
@@ -424,66 +431,62 @@ input:focus {
                      <a href="Cymatics - Eternity Crash 3.wav">Скачайте музыку</a>.
                    </audio> <br>
                    <br>
-                   <p style="color:black;"> 1.4 Clap</p>
+                   <p > 1.4 Clap</p>
                    <audio controls>
                        <source src="Cymatics - Eternity Clap 7.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                        <source src="Cymatics - Eternity Clap 7.wav" type="audio/mpeg">
                      
                        <a href="Cymatics - Eternity Clap 7.wav">Скачайте музыку</a>.
                      </audio> <br>
-                     <p style="color:black;"> 1.5 Clap</p>
+                     <p > 1.5 Clap</p>
                      <audio controls>
                          <source src="Cymatics - Eternity Clap 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                          <source src="Cymatics - Eternity Clap 1.wav" type="audio/mpeg">
                        
                          <a href="Cymatics - Eternity Clap 1.wav">Скачайте музыку</a>.
                        </audio> <br>
-                       <p style="color:black;"> 1.6 Snap</p>
+                       <p > 1.6 Snap</p>
                        <audio controls>
                            <source src="Cymatics - Eternity Snap 6.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                            <source src="Cymatics - Eternity Snap 6.wav" type="audio/mpeg">
                          
                            <a href="Cymatics - Eternity Snap 6.wav">Скачайте музыку</a>.
                          </audio> <br>
-                         <p style="color:black;"> 1.7 Snap</p>
+                         <p > 1.7 Snap</p>
                          <audio controls>
                              <source src="Cymatics - Eternity Snap 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                              <source src="Cymatics - Eternity Snap 1.wav" type="audio/mpeg">
                            
                              <a href="Cymatics - Eternity Snap 1.wav">Скачайте музыку</a>.
                            </audio> <br>
-                           <p style="color:black;"> 1.8 Closed</p>
+                           <p > 1.8 Closed</p>
                            <audio controls>
                                <source src="Cymatics - Eternity Closed Hihat 3.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                                <source src="Cymatics - Eternity Closed Hihat 3.wav" type="audio/mpeg">
                              
                                <a href="Cymatics - Eternity Closed Hihat 3.wav">Скачайте музыку</a>.
                              </audio> <br>
-                             <p style="color:black;"> 1.9 Closed</p>
+                             <p > 1.9 Closed</p>
                              <audio controls>
-                                 <source src="Cymatics - Eternity
-
-Closed Hihat 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
+                                 <source src="Cymatics - EternityClosed Hihat 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                                  <source src="Cymatics - Eternity Closed Hihat 1.wav" type="audio/mpeg">
                                
                                  <a href="Cymatics - Eternity Closed Hihat 1.wav">Скачайте музыку</a>.
                                </audio> <br>
-                               <p style="color:black;"> 2.0 LOL</p>
+                               <p > 2.0 LOL</p>
                                <audio controls>
                                    <source src="Larry Ohh - Sneeze LOL.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                                    <source src="Larry Ohh - Sneeze LOL.wav" type="audio/mpeg">
                                  
                                    <a href="Larry Ohh - Sneeze LOL.wav">Скачайте музыку</a>.
                                  </audio> <br>
-                                 <p style="color:black;"> 2.1 Suge</p>
+                                 <p > 2.1 Suge</p>
                                  <audio controls>
                                      <source src="Larry Ohh - Suge 808 D.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
                                      <source src="Larry Ohh - Suge 808 D.wav" type="audio/mpeg">
                                    
                                      <a href="Larry Ohh - Suge 808 D.wav">Скачайте музыку</a>.
                                    </audio> <br>
-    
-
             </div>
           </div>
         </div>
@@ -550,9 +553,9 @@ Closed Hihat 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
     </main>
  
     <aside>
-        <div style="height: 400px;" class="card" style="width: 18rem;">
+        <div style="height: 400px;" class="card" style="width: 18rem; background-color: black;">
             <img src="photo5865213795209685854.jpg" class="card-img-top" alt="Imanbek">
-            <div class="card-body">
+            <div class="card-body" id="tut">
               <p class="card-text">
                <b>Imanbek</b> <br>
                "Договор я подписал с effective records - мне их условия больше понравились." <br>
@@ -562,17 +565,15 @@ Closed Hihat 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
           </div>
           <div style="height: 400px;" class="card" style="width: 18rem;">
             <img src="photo5287362942381174569.jpg" class="card-img-top" alt="Avicii">
-            <div class="card-body">
+            <div class="card-body" id="tut">
               <p class="card-text">
                 <b> Avicii</b>  <br>
-                “Life’s a game made for everyone, and love is the prize.”
-
-</p>
+                “Life’s a gamemade for everyone, and love is the prize.”</p>
             </div>
           </div>
           <div style="height: 450px;" class="card" style="width: 18rem;">
             <img src="photo5287362942381174568.jpg" class="card-img-top" alt="Leland Tyler Wayne">
-            <div class="card-body">
+            <div class="card-body" id="tut">
               <p class="card-text">
                  <b> Leland Tyler Wayne</b> <br>
                  "The main thing about being a producer and not a beatmaker, the difference is the ear"  
@@ -581,7 +582,7 @@ Closed Hihat 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
           </div>
           <div style="height: 400px;" class="card" style="width: 18rem;">
             <img src="photo5287362942381174571.jpg" class="card-img-top" alt="Dr.dre - Andre Romelle Young">
-            <div class="card-body">
+            <div class="card-body" id="tut">
               <p class="card-text">
                <b>Dr.dre-  Andre Romelle Young </b> <br> “Don’t be worried about the next man – make sure your business tight.”
                
@@ -590,7 +591,7 @@ Closed Hihat 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
           </div>
           <div  style="height: 400px;" class="card" style="width: 18rem;">
             <img src="photo5287362942381174567.jpg" class="card-img-top" alt="Murda beatz/Shane Lee Lindstrom">
-            <div class="card-body">
+            <div class="card-body" id="tut">
               <p class="card-text">
                  <b>Murda beatz/Shane Lee Lindstrom</b> <br> "I want to put a face to my music, I don't want to be a faceless producer or faceless artist." 
                  
@@ -599,7 +600,7 @@ Closed Hihat 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
           </div>
           <div style="height: 400px;" class="card" style="width: 18rem;">
             <img src="photo5287362942381174546.jpg" class="card-img-top" alt="Marshmello">
-            <div class="card-body">
+            <div class="card-body" id="tut">
               <p class="card-text">
                  <b>Marshmello</b> <br>
                  "I found peace in your violence." 
@@ -609,7 +610,7 @@ Closed Hihat 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
     </aside> 
 
    <br>
-    <footer>
+    <footer id="foot">
       
       <div class="ssssss">  
         Group: MT-2004. <br>
@@ -623,20 +624,33 @@ Closed Hihat 1.wav" type="audio/ogg; codecs=vorbis"  controls="controls">
       </ul>      
     </div>  
     </footer>   
-    </body>
+    
 
-    <!--
+  <!--
     <script>
       function Dark() {
-        document.getElementById("head").style.background = black;
+        document.getElementById('head').style.backgroundColor = 'black';
+        document.getElementById('foot').style.backgroundColor = 'black';
+        document.getElementById('tut').style.backgroundColor = 'black';
+        document.getElementById('headingOne').style.backgroundColor = 'black';
+        document.getElementById('headingTwo').style.backgroundColor = 'black';
+        document.getElementById('headingThree').style.backgroundColor = 'black';
+        document.getElementById('headingFour').style.backgroundColor = 'black';
       }
 
       function Light() {
-        document.getElementById("head").style.background = white;
+        document.getElementById('head').style.backgroundColor = 'white';
+        document.getElementById('foot').style.backgroundColor = 'white';
+        document.getElementById('tut').style.backgroundColor = 'white';
+        document.getElementById('headingOne').style.backgroundColor = 'white';
+        document.getElementById('headingTwo').style.backgroundColor = 'white';
+        document.getElementById('headingThree').style.backgroundColor = 'white';
+        document.getElementById('headingFour').style.backgroundColor = 'white';
       }
 
     </script>
 -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
 </html>
